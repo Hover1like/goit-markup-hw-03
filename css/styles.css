@@ -18,12 +18,17 @@ a{
         padding-inline:15px;
         margin: 0 auto;
 }
+
+.link .fast-travel{
+    display: inline-flex;
+    align-items: center;
+    padding: 24px 0;
+}
 .section{
     padding: 120px 0;
 }
 
 .header{
-    padding: 24px 0;
     border-bottom: 1px solid #E7E9FC
 
 }
@@ -114,6 +119,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .title{
+    margin: 0 auto;
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
