@@ -35,19 +35,21 @@ a{
 
 .header-nav{
     margin-left: 76px;
+    margin-right: auto;
+    display: flex;
+    flex: 0 0 auto;
 }
 
 .fast-travel-list{
     display: flex;
     gap: 40px;
-            align-items: center;
+    align-items: center;
 }
 
 
 .adress-link{
     display: flex;
     gap: 40px;
-    margin-left: 156px;
 }
 
 
@@ -87,7 +89,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .fast-travel {
         display: inline-flex;
-         align-items: center;
+        vertical-align: middle;
         padding: 24px 0;
         font-weight: 500;
         font-size: 16px;
@@ -100,9 +102,10 @@ h1,h2,h3,h4,h5,h6,p{
 .fast-travel:focus, .fast-travel:hover{
     color: #404bbf;
 }
+
 .link{
         display: inline-flex;
-        align-items: center;
+        vertical-align: middle;
         padding: 24px 0;
         font-size: 16px;
     
