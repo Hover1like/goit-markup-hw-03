@@ -28,19 +28,20 @@ header{
    display: flex;
    align-items: center;
    justify-content: space-between;
+   gap: 76px;
 }
-.logo{
-  margin-right: 76px;
+
+.header-nav a {
+    display: inline-flex;
+    align-items: center;
+    padding: 24px 0;
 }
+
 .fast-travel-list{
-    padding-bottom: 24px;
-    padding-top: 24px;
     display: flex;
     gap: 40px;
 }
 .adress-link{
-    padding-bottom: 24px;
-    padding-top: 24px;
     display: flex;
     gap: 40px;
 }
@@ -266,7 +267,6 @@ padding: 120px 0;
 }
 
 .port-wrapper{
-    gap: 8px;
     padding:32px 16px;
     padding-right: auto;
     border-bottom: 1px solid #E7E9FC;
