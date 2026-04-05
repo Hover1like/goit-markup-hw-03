@@ -24,6 +24,13 @@ a{
 header{
     border-bottom: 1px solid #E7E9FC
 }
+
+.header{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .header-nav{
    display: flex;
    align-items: center;
@@ -31,20 +38,24 @@ header{
    gap: 76px;
 }
 
-.header-nav a {
-    display: inline-flex;
-    align-items: center;
-    padding: 24px 0;
-}
-
 .fast-travel-list{
     display: flex;
     gap: 40px;
+            align-items: center;
+            padding: 24px 0;
 }
 .adress-link{
     display: flex;
     gap: 40px;
+            align-items: center;
+            padding: 24px 0;
 }
+
+.adress-link a{
+    display: inline-flex;
+        align-items: center;
+}
+
 h1,h2,h3,h4,h5,h6,p{
     padding-left: 0;
         padding-right: 0;
@@ -86,6 +97,12 @@ h1,h2,h3,h4,h5,h6,p{
 .fast-travel:focus, .fast-travel:hover{
     color: #404bbf;
 }
+
+.link a{
+    display: inline-flex;
+        align-items: center;
+}
+
 .link{
         font-size: 16px;
     
