@@ -44,16 +44,18 @@ display: flex;
             align-items: center;
             padding: 24px 0;
 }
+
+.fast-travel-list a{
+    padding: 24px 0;
+}
+
 .adress-link{
     display: flex;
     gap: 40px;
-            align-items: center;
-            padding: 24px 0;
 }
 
 .adress-link a{
-    display: inline-flex;
-        align-items: center;
+    padding: 24px 0;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -212,7 +214,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .title-team{
-
+    padding-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
     
@@ -274,6 +276,7 @@ padding: 120px 0;
         color: #f4f4fd;
 }
 .title-portfolio{
+    padding-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
     
